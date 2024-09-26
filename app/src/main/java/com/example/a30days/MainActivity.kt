@@ -34,7 +34,7 @@ fun WellnessApp() {
         WellnessDay(1, "Medita por 10 minutos", "Inicia tu día con una meditación pacifica.", R.drawable.meditacion),
         WellnessDay(2, "Sal a caminar", "Toma una caminata de 30 minutos a tu ritmo.", R.drawable.f3d9caminar),
         WellnessDay(3, "Bebe un vaso de agua", "Mantente hidratado con 8 vasos de agua diario.", R.drawable.mar),
-        // ... Add more days with different activities, tips, and images
+        WellnessDay(4, "Medita por 20 minutos", "Inicia tu día con una meditación pacifica.", R.drawable.meditacion),
     )
 
     WellnessScreen(days)
